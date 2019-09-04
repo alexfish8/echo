@@ -1,6 +1,9 @@
 accessibility: protected
 containerPort: 5000
 
+replicas: 1
+maxReplicas: 1
+
 readinessProbe:
   httpGet:
     path: /
